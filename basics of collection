@@ -1,0 +1,8 @@
+==>collections are inside database, we need to create database first..
+==>to create and use database in mongo db = use collection_name    then enter
+==>to enter data = db.file.insertmany ({age =34, name='vaibhav', address='nashik', mono=7788665544})
+
+if you want to inser single data then use insertOne and if you want to insert multiple data then you should use insertMany...here O and M should be capital
+==>to show all data in database = db.collection_name.find()   then enter
+==>to show specific data from collection = db.file.find(_id: ObjectId("6478239208adcc2236297373"))
+
