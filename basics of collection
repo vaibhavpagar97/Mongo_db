@@ -7,6 +7,6 @@ if you want to inser single data then use insertOne and if you want to insert mu
 ==>to show specific data from collection = db.file.find(_id: ObjectId("6478239208adcc2236297373"))
 ==> to update single field in collection = db.file.updateOne({another field for reference},{$set: {field you want to update'}})
 
-==> to update single field in collection = db.file.updateOne({name : 'vaibhav'},{$set: {address : 'Pune'}})
+==> to update single field in collection = db.file.updateOne({name : 'vaibhav'},{$set: {address : 'Pune'}})//
 == to update multiple fields in collection >db.file.updateMany({name : 'vaibhav'},{$set: {address : 'Nashik'}},{$set:{mono : 74632863473}})
 
